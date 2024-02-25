@@ -30,3 +30,36 @@ Reload zsh again
 ```sh
 $ source .zshrc
 ```
+
+## Step 05
+Use the autocompletion form your CLI with the TAB key
+
+```sh
+$ argo
+archive           -- manage the workflow archive
+auth              -- manage authentication settings
+cluster-template  -- manipulate cluster workflow templates
+completion        -- output shell completion code for the specified shell (bash or zsh)
+cp                -- copy artifacts from workflow
+cron              -- manage cron workflows
+delete            -- delete workflows
+executor-plugin   -- manage executor plugins
+get               -- display details about a workflow
+help              -- Help about any command
+lint              -- validate files or directories of manifests
+list              -- list workflows
+logs              -- view logs of a pod or workflow
+node              -- perform action on a node in a workflow
+resubmit          -- resubmit one or more workflows
+resume            -- resume zero or more workflows (opposite of suspend)
+retry             -- retry zero or more workflows
+server            -- start the Argo Server
+stop              -- stop zero or more workflows allowing all exit handlers to run
+submit            -- submit a workflow
+suspend           -- suspend zero or more workflows (opposite of resume)
+template          -- manipulate workflow templates
+terminate         -- terminate zero or more workflows immediately
+version           -- print version information
+wait              -- waits for workflows to complete
+watch             -- watch a workflow until it completes
+```
