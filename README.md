@@ -1,8 +1,8 @@
 ## Description
-Add completion script for a CLI in mac with zsh shell and oh-my-zsh extension
+Add completion script for a CLI in mac with zsh shell and oh-my-zsh extension. In our case we will configure Argo CLI completion.
 
 ## Step 01
-First create the completion zsh script to be used for your CLI like this. Argo CLI
+First create the completion zsh script to be used for your CLI like this:
 
 ```sh
 $ argo completion zsh > argo-workflows.plugin.zsh
